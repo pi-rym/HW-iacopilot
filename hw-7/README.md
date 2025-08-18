@@ -65,3 +65,20 @@ Para poder realizar esta tarea en su computadora personal, los estudiantes deben
   
    > MODEL=gpt-4o-mini
 
+## ⚙️ Requerimientos Técnicos de Software
+
+Para poder desarrollar y ejecutar este proyecto en su computadora personal, los estudiantes deben asegurarse de tener instalado lo siguiente:
+
+### 🛠️ Software Base
+- [Node.js 18 o superior](https://nodejs.org/en/download)  
+- [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) (incluido con Node.js) o [Yarn](https://classic.yarnpkg.com/lang/en/docs/install)  
+
+### 📦 Dependencias principales  
+Estas librerías se instalan automáticamente al ejecutar `npm install` en el proyecto.  
+
+- [langchain](https://www.npmjs.com/package/langchain) → Framework para construir las cadenas y usar loaders.  
+- [openai](https://www.npmjs.com/package/openai) → Cliente oficial para conectarse a la API de OpenAI.  
+- [axios](https://www.npmjs.com/package/axios) o [node-fetch](https://www.npmjs.com/package/node-fetch) → Para llamadas HTTP a las fuentes de noticias.  
+- [dotenv](https://www.npmjs.com/package/dotenv) → Para manejar variables de entorno.  
+- (Opcional) [chalk](https://www.npmjs.com/package/chalk) o [ora](https://www.npmjs.com/package/ora) → Para mejorar la experiencia visual en la consola.  
+
