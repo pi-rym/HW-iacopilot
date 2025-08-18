@@ -58,17 +58,17 @@ Para poder realizar esta tarea en su computadora personal, los estudiantes deben
 - [Python 3.10 o superior](https://www.python.org/downloads/) instalado y agregado al `PATH`.  
 - [Git](https://git-scm.com/downloads) instalado (para clonar el repositorio y cambiar de rama).  
 - Entorno virtual creado con [`venv`](https://docs.python.org/3/library/venv.html) o similar:  
-  ```bash
+```bash
   python -m venv .venv
-````
+```
 
 * Archivo `.env` en la raíz del proyecto con las siguientes variables:
 
-  ```bash
+```bash
   SERPER_API_KEY=tu_clave_serper
   OPENAI_API_KEY=tu_clave_llm
   MODEL=gpt-4o-mini
-  ```
+```
 * Dependencias de Python instaladas con `pip install -r requirements.txt`, entre ellas:
 
   * [httpx](https://www.python-httpx.org/) → Peticiones HTTP asíncronas.
