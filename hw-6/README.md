@@ -51,17 +51,31 @@ Referencias:
 - Documentación que describa cómo opera el sistema, incluyendo instrucciones para ejecutar el chatbot y las pruebas.
 - Archivo con pruebas unitarias.
 
-## Requerimientos Técnicos de Software
+## ⚙️ Requerimientos Técnicos de Software
 
 Para poder realizar esta tarea en su computadora personal, los estudiantes deben asegurarse de contar con lo siguiente:
 
-- **Python 3.10 o superior** instalado y agregado al `PATH`.  
-- **Git** instalado (para clonar el repositorio y cambiar de rama).  
-- **Entorno virtual** creado con `venv` o similar (`python -m venv .venv`).  
-- Archivo `.env` en la raíz del proyecto con las siguientes variables:
-   > SERPER_API_KEY=tu_clave_serper
-   
-   > OPENAI_API_KEY=tu_clave_llm
-  
-   > MODEL=gpt-4o-mini
+- [Python 3.10 o superior](https://www.python.org/downloads/) instalado y agregado al `PATH`.  
+- [Git](https://git-scm.com/downloads) instalado (para clonar el repositorio y cambiar de rama).  
+- Entorno virtual creado con [`venv`](https://docs.python.org/3/library/venv.html) o similar:  
+  ```bash
+  python -m venv .venv
+````
 
+* Archivo `.env` en la raíz del proyecto con las siguientes variables:
+
+  ```bash
+  SERPER_API_KEY=tu_clave_serper
+  OPENAI_API_KEY=tu_clave_llm
+  MODEL=gpt-4o-mini
+  ```
+* Dependencias de Python instaladas con `pip install -r requirements.txt`, entre ellas:
+
+  * [httpx](https://www.python-httpx.org/) → Peticiones HTTP asíncronas.
+  * [trafilatura](https://pypi.org/project/trafilatura/) → Extracción de texto de páginas web.
+  * [rich](https://pypi.org/project/rich/) → Salida formateada y streaming en consola.
+  * [python-dotenv](https://pypi.org/project/python-dotenv/) → Manejo de variables de entorno.
+  * [pydantic](https://docs.pydantic.dev/) → Validación y modelado de datos.
+  * [pytest](https://docs.pytest.org/) y [pytest-asyncio](https://pypi.org/project/pytest-asyncio/) → Pruebas automatizadas.
+  * [respx](https://pypi.org/project/respx/) → Mock de peticiones HTTP en pruebas.
+  * [OpenAI SDK para Python](https://pypi.org/project/openai/) → Integración con el modelo de lenguaje.
