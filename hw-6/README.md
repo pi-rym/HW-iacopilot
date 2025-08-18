@@ -60,6 +60,8 @@ Para poder realizar esta tarea en su computadora personal, los estudiantes deben
 - **Entorno virtual** creado con `venv` o similar (`python -m venv .venv`).  
 - Archivo `.env` en la raíz del proyecto con las siguientes variables:
    > SERPER_API_KEY=tu_clave_serper
+   
    > OPENAI_API_KEY=tu_clave_llm
+  
    > MODEL=gpt-4o-mini
 
