@@ -53,23 +53,6 @@ Los estudiantes pueden ganar puntos extra por:
 1. **Funcionalidad avanzada de memoria**: Implementar características de memoria en LangChain para recordar las preferencias de los usuarios y las interacciones anteriores, permitiendo respuestas más personalizadas y contextuales.
 2. **Interfaz de usuario gráfica**: Crear una interfaz de usuario que facilite la interacción con el sistema de consulta de noticias, mejorando la experiencia del usuario final.
 
-## ⚙️ Requerimientos Técnicos de Software
-
-Para poder desarrollar y ejecutar este proyecto en su computadora personal, los estudiantes deben asegurarse de tener instalado lo siguiente:
-
-### 🛠️ Software Base
-- [Node.js 18 o superior](https://nodejs.org/en/download)  
-- [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) (incluido con Node.js) o [Yarn](https://classic.yarnpkg.com/lang/en/docs/install)  
-
-### 📦 Dependencias principales  
-Estas librerías se instalan automáticamente al ejecutar `npm install` en el proyecto.  
-
-- [langchain](https://www.npmjs.com/package/langchain) → Framework para construir las cadenas y usar loaders.  
-- [openai](https://www.npmjs.com/package/openai) → Cliente oficial para conectarse a la API de OpenAI.  
-- [axios](https://www.npmjs.com/package/axios) o [node-fetch](https://www.npmjs.com/package/node-fetch) → Para llamadas HTTP a las fuentes de noticias.  
-- [dotenv](https://www.npmjs.com/package/dotenv) → Para manejar variables de entorno.  
-- (Opcional) [chalk](https://www.npmjs.com/package/chalk) o [ora](https://www.npmjs.com/package/ora) → Para mejorar la experiencia visual en la consola.  
-
 ## Solucion: Configuración y Ejecución del Proyecto
 
 Instrucciones detalladas sobre cómo configurar y ejecutar el proyecto en un entorno local.
